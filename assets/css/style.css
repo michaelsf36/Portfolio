@@ -1,4 +1,4 @@
-/* Reset e Variáveis */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ body {
     font-family: sans-serif;
 }
 
-/* Títulos e textos */
+
 h1, h2, h3 {
     font-weight: 700;
 }
@@ -49,13 +49,13 @@ p {
     text-align: justify; 
 }
 
-/* Seções Gerais */
+
 section {
     width: 90%;
     margin: 2rem auto;
 }
 
-/* Header e Menu */
+
 header {
     background: var(--purple-800);
     padding: 1rem 2rem;
@@ -83,7 +83,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* About */
+
 #about article {
     display: flex;
     align-items: center;
@@ -99,13 +99,13 @@ nav a:hover {
     flex: 1; 
 }
 
-/* Vídeo */
+
 #video figure {
     display: flex;
     justify-content: center;
 }
 
-/* Footer */
+
 footer{
     flex-direction: column;
     align-items: center;
@@ -145,7 +145,7 @@ footer img:hover {
             contrast(88%);
 }
 
-/* Contato */
+
 .main_contato {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -193,7 +193,7 @@ form span{
     font-size: 0.75rem;
 }
 
-/* Mapa */
+
 .article_mapa {
     display: flex;
     flex-direction: column;
